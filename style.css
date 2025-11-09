@@ -44,16 +44,22 @@ main{
 .presentacion .contenendor {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 2em;
+	flex-wrap: wrap;
 	margin-bottom: 2em;
 }
 
-.presentacion img {
+.presentacion .foto img {
 	border-radius: 10px;
 	width: 200px;
+	max-width: 100%;
+	display: block;
 }
 
 .presentacion .texto {
+	flex: 1;
+	min-width: 250px;
 	max-width: 600px;
 }
 
