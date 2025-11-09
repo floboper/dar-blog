@@ -39,6 +39,24 @@ main{
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Presentación del blog */
+
+.presentacion .contenendor {
+	display: flex;
+	align-items: center;
+	gap: 2em;
+	margin-bottom: 2em;
+}
+
+.presentacion img {
+	border-radius: 10px;
+	width: 200px;
+}
+
+.presentacion .texto {
+	max-width: 600px;
+}
+
 /* Artículos */
 article {
 	margin-bottom: 2em;
