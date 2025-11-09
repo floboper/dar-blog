@@ -44,18 +44,31 @@ main{
 .presentacion .contenendor {
 	display: flex;
 	align-items: center;
+	justify-content: flex-start;
 	gap: 2em;
+	max-width: 1000px;
+	margin: auto;
+	padding: 2em;
 	flex-wrap: wrap;
-	margin-bottom: 2em;
 }
 
+.foto {
+	width: 250px;
+	height: auto;
+	border-radius: 10px;
+	flex-shrink: 0;
+	object-fit: cover;
+	display: block;
+}
+
+/* no usado 
 .presentacion .foto img {
 	width: 250px;
 	max-width: 100%;
 	height: auto;
 	border-radius: 10px;
 	display: block;
-}
+} */
 
 .texto-presentacion {
 	flex: 1;
