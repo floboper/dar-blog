@@ -48,6 +48,11 @@ article h2 {
 	color: #0077b6;
 }
 
+article p {
+	text-align: justify;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
 /* Botón */
 button {
 	background-color: #0077b6;
@@ -69,4 +74,5 @@ footer {
 	text-align: center;
 	padding: 1em;
 	margin-top: 2em;
+
 }
