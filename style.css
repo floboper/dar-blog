@@ -79,7 +79,7 @@ main{
 .texto-presentacion {
 	flex: 1;
 	min-width: 250px;
-	max-width: 600px;
+	max-width: 300px;
 }
 
 /* Artículos */
