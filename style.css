@@ -52,7 +52,7 @@ main{
 	align-items: center;
 	justify-content: flex-start;
 	gap: 2em;
-	max-width: 5000px;
+	max-width: 1000px;
 	margin: auto;
 	padding: 2em;
 	flex-wrap: wrap;
@@ -64,7 +64,7 @@ main{
 	border-radius: 10px;
 	flex-shrink: 0;
 	object-fit: cover;
-
+	display: block;
 }
 
 /* no usado 
